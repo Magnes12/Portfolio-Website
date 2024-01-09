@@ -19,7 +19,7 @@ def contact():
     return render_template('contact.html')
 
 
-
+#run
 
 if __name__ == "__main__":
     app.run(debug=True)
