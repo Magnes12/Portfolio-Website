@@ -40,33 +40,6 @@ header {
     text-align: center;
 }
 
-nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-.about-section {
-    background-color: #0F1035;
-    padding: 50px;
-    text-align: center;
-}
-
-.about-section h2 {
-    color: #DCF2F1;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.about-section p {
-    color: #DCF2F1;
-    font-size: 1.2em;
-    line-height: 1.6;
-}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -80,18 +53,8 @@ header {
     text-align: center;
 }
 
-nav a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
 .contact-section {
-    background-color: #0F1035;
+    background-color: #365486;
     padding: 50px;
     text-align: center;
 }
@@ -133,9 +96,7 @@ nav a:hover {
     text-align: center;
     font-size: 0.9em;
 }
-.icons{
-    text-align: right;
-}
+
 .footer-links a {
     margin: 0 15px;
     color: white;
