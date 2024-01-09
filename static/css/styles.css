@@ -1,9 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 .hero-section {
     background-color: #365486;
     text-align: center;
@@ -27,12 +21,28 @@ body {
     font-size: 1.5em;
     color: #DCF2F1;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.languages-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Adjust alignment as needed */
+  }
+  
+.language {
+    margin-right: 20px; /* Adjust spacing between languages */
+    padding: 10px;
+    border: 1px solid #DCF2F1;
+    border-radius: 5px;
+    background-color: #365486;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap; /* Prevents wrapping to the next line */
+  }  
+.language img{
+    width: 15px; 
+    height: 15px;
+    object-fit: cover; 
+    align-items: center;
 }
-
 header {
     background-color: #333;
     color: #fff;
@@ -44,32 +54,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
 }
 
 .contact-section {
     background-color: #365486;
-    padding: 50px;
+    padding: 5px;
     text-align: center;
 }
-
-.contact-section h2 {
+.contact-section h2{
     color: #DCF2F1;
-    font-size: 2em;
-    margin-bottom: 20px;
 }
-
-.contact-section p {
-    font-size: 1.2em;
-    line-height: 1.6;
-}
-
 .contact-section ul {
     color: #DCF2F1;
     list-style-type: none;
