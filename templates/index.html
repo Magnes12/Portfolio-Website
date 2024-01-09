@@ -7,14 +7,15 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
 </head>
 <body>
+<header class="header">
+  <img class="my_img" src="{{url_for('static', filename='img/me.jpeg')}}">
+  <h1>Damian Szymańczyk</h1>
+</header>
 <header class="hero-section">
-    <img class="my_img" src="{{url_for('static', filename='img/me.jpeg')}}">
-    <h1>Damian</h1>
     <div class="languages-container">
       <div class="language"><img src="{{ url_for('static', filename='img/python.png')}}">Python</div>
       <div class="language"><img src="{{ url_for('static', filename='img/html.png')}}">HTML</div>
       <div class="language"><img src="{{ url_for('static', filename='img/css-logo.png')}}">CSS</div>
-
     </div>
 </header>
 <main class="contact-section">

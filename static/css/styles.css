@@ -1,7 +1,27 @@
+/* # colors 
+    #DCF2F1
+    #7FC7D9
+    #365486
+    #0F1035 */
+.header {
+    background-color: #365486;
+    text-align: center;
+    padding: 50px 0;
+    }
+.header img{
+    width: 100px; 
+    height: 100px;     
+    border-radius: 50%;  
+    object-fit: cover; 
+}
+.header h1 {
+    color: #DCF2F1;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
 .hero-section {
     background-color: #365486;
     text-align: center;
-    padding: 100px 0;
 }
 .hero-section img{
     width: 100px; 
@@ -44,8 +64,8 @@
     align-items: center;
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #365486;
+    color: #DCF2F1;
     padding: 10px 0;
     text-align: center;
 }
@@ -93,13 +113,13 @@ body {
 
 .footer-links a {
     margin: 0 15px;
-    color: white;
+    color: #DCF2F1;
     text-decoration: none;
 }
 
 .footer-links a:hover {
     text-decoration: underline;
-    color: white;
+    color: #DCF2F1;
 }
 
 .copyright {
