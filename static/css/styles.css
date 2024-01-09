@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-color: #365486;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero-section img{
+    width: 100px; 
+    height: 100px;     
+    border-radius: 50%;  
+    object-fit: cover; 
+}
+.hero-section h1 {
+    color: #DCF2F1;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero-section a{
+    color:#DCF2F1
+}
+.hero-section p {
+    font-size: 1.5em;
+    color: #DCF2F1;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.about-section {
+    background-color: #0F1035;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #DCF2F1;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #DCF2F1;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.contact-section {
+    background-color: #0F1035;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #DCF2F1;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.contact-section ul {
+    color: #DCF2F1;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section li {
+    color: #DCF2F1;
+    margin-bottom: 10px;
+}
+
+.contact-section a {
+    color: #DCF2F1;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+.site-footer {
+    background-color: #365486;
+    color: #DCF2F1;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+.icons{
+    text-align: right;
+}
+.footer-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
